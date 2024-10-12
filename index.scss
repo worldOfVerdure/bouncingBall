@@ -23,7 +23,7 @@ body {
   top: 50%;
   width: fit-content;
   height: fit-content;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%,-50%);
 }
 
 .circle {
@@ -48,4 +48,8 @@ body {
   }
 }
 
-/*# sourceMappingURL=index.css.map */
+// @for $num from 1 through 8 {
+//   .circle:nth-child(#{$num}) {
+    
+//   }
+// }
